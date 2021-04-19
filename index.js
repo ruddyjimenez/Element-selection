@@ -40,3 +40,6 @@ for (var i = 0; i< results.length; i++) {
 
 //Loop modifies the behavior of (Array.from(results))
 //and .textContent modifies the text of the array 
+
+//var results = document.querySelector('p').textContent = "Here is some text"
+//Use .textContent to replace text efficiently
