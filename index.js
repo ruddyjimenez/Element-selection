@@ -46,3 +46,14 @@ console.log(Array.from(results))
 
 var text = document.querySelector('#h1').textContent
 document.querySelector('.basket').textContent = text
+
+// var header = document.getElementById("header")
+// header.style.backgroundColor = "blue"
+
+
+// document.body.style.backgroundColor = "burlywood"
+
+var header = document.querySelector(".header")
+header.style.backgroundColor = "blue"
+
+document.body.style.backgroundColor = "burlywood"
