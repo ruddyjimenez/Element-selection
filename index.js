@@ -34,12 +34,15 @@ console.log(Array.from(results))
 // '>' Points 'basket' > to 'li' and gives access to the inner list
 //Logs ul class and NodeList
 
-for (var i = 0; i< results.length; i++) {
-     results[i].textContent = ' *REDACTED* '
-}
+// for (var i = 0; i< results.length; i++) {
+//      results[i].textContent = ' *REDACTED* '
+// }
 
 //Loop modifies the behavior of (Array.from(results))
 //and .textContent modifies the text of the array 
 
 //var results = document.querySelector('p').textContent = "Here is some text"
 //Use .textContent to replace text efficiently
+
+var text = document.querySelector('#h1').textContent
+document.querySelector('.basket').textContent = text
