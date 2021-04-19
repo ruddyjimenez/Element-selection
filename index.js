@@ -26,7 +26,7 @@ console.log(results)
 
 //Chooses one class or id and returns output
 
-var results = document.querySelectorAll('ul.basket > li')
+var results = document.querySelectorAll('ul.basket > li')  //'ul#id-name > li
 console.log(results)
 
 //Accesses unordered list from html file
